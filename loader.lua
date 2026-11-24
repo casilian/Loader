@@ -12,7 +12,7 @@ local gameList = {
 
 
 local function loadstr(path)
-    local url = 'https://api.github.com/repos/Karshtakavaar/Projects/contents/' .. path .. '?ref=main' 
+    local url = 'https://api.github.com/repos/casilian/Projects/contents/' .. path .. '?ref=main' 
 
     local response = request({
         Url = url, 
